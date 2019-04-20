@@ -3,7 +3,7 @@ A Basic File Transfer Server using Flask.
 
 Dependencies:
   - Python3
-  - Flask (pip install flask)
+  - Flask (pip install Flask)
 
 How to run:
   - Server Side: Go to main directory, type in "export FLASK_APP=app.py" the first time you download the code. Afterwards, just type "flask_run" to run.
