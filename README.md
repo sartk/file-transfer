@@ -7,7 +7,7 @@ Dependencies:
 
 Initialization:
   - Install Flask: (pip install Flask)
-  - Either: run init.sh (linux) or (Make a directory called "UPLOADS" if it doesn't exist and set the env var "FLASK_APP" = "app.py"
+  - Either: run init.sh (linux) or (Make a directory called "UPLOADS" if it doesn't exist and set the env var "FLASK_APP" = "app.py")
 
 How to run:
   - Server Side: In the file-transfer directory, type "flask_run" to run.
