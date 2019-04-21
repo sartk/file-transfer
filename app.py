@@ -52,7 +52,7 @@ def index():
     return render_template('index.html')
 
 if __name__ == '__main__':
-   app.run(debug = True)
+   app.run(host='0.0.0.0')
 
 def create_random_code(size=8):
-    return ''.join([random.choice(string.ascii_letters + string.digits) for n in range(size)])
+   return ''.join([random.choice(string.ascii_letters + string.digits) for n in range(size)])
