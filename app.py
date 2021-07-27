@@ -5,7 +5,7 @@
 ######################
 
 from flask import Flask, render_template, request, send_from_directory
-from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 import random
 import os
 import string
